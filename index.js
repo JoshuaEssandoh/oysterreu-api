@@ -8,7 +8,7 @@ const port = 8083;
 const path = require("path");
 const { Storage } = require("@google-cloud/storage");
 const Multer = require("multer");
-const src = path.join(__dirname, "./node-dir/src/");
+const src = path.join(__dirname, "./node-dir/frontend/src/");
 //used for google storage transfer
 app.use(express.static(src));
 
